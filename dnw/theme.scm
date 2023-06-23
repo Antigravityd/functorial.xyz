@@ -45,8 +45,8 @@
        ,(hyperlink "http://haunt.dthompson.us/" "Haunt")
        ", a static site generator written in "
        ,(hyperlink "https://gnu.org/software/guile" "Guile Scheme")
-       ". The source code is available here"
-       ;; ,(hyperlink "https://git.sr.ht/~jakob/blog" "here") TODO: update after hosting.
+       ". The source code is available "
+       ,(hyperlink "https://github.com/Antigravityd/functorial.xyz" "here")
        ".")))
 
 (define* (base-template site body #:key title)
